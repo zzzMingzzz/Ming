@@ -4,7 +4,7 @@ class polynomial():
         
     def x_values(self, x):
         total = 0
-        for i in range(1, len(self.args)):
+        for i in range(len(self.args)):
             total += self.args[i]*(x**i)
         return total
 

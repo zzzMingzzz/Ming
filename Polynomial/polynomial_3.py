@@ -3,7 +3,7 @@ def polynomial(*args):
 
     def calculate(x):
         total = 0
-        for i in range(1, len(a)):
+        for i in range(len(a)):
             total += a[i]*(x**i)
             return total
 

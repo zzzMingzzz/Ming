@@ -10,8 +10,4 @@ class polynomial():
 
 
 p = polynomial(3, 3, 3, 4)
-p.x_values(-7)
-
-
-a = polynomial(2, 0)
-a.x_values(0)
+print(p.x_values(-7))
